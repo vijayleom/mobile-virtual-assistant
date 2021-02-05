@@ -1,0 +1,34 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<ion-header [translucent]="true">
+<ion-toolbar>
+    <ion-title>
+      <div class="inline-info">
+      <img src="assets/images/ConnectALL.png" alt="ConnectALL LLC">
+      <p>&nbsp;&nbsp;Anytime Anywhere</p>
+      </div>
+      <img alt="user avatar" class="user-avatar__img" src="assets/images/user-logo.jpg">
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<br><br>
+
+
+  <div class="content">
+    <ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 3</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div class="assitant-text">
+    <b>Hello, I'm Jo - Your Virtual Assistant</b>
+  </div>
+  <div class="assistant">
+  <img src="assets/images/Assitant_JO.jpeg" alt="ConnectALL LLC">
+  </div>
+  </ion-content>
+  <h4>How  may I help?  </h4><br>
+  <a class="fa fa-microphone" [ngClass]="{'fillColor': fillColor}" (click)="processListen()"></a>
+  </div>
+  <app-explore-container name=""></app-explore-container>
+

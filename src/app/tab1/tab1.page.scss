@@ -1,0 +1,67 @@
+
+ion-row {
+	padding: 2px;
+}
+
+ion-grid{
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-left: 5%;
+
+}
+
+.cell-class{
+  border-color: black; 
+  border-width: .01em; 
+  padding: 2px;
+  border-style:solid; margin-bottom : -1px;
+  background-color: green;
+}
+
+.inline-info {
+	display: inline; 
+}
+
+img{
+	height: 50px;
+}
+
+ion-col img{
+	height: 100px;
+	width: 100%;
+	padding: 2px;
+}
+
+.content{
+	height: calc(100vh - 96px);
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	overflow-x: auto;
+}
+
+ion-title p{
+	line-height: 0;
+    position: absolute;
+	font-size: 0.6rem;
+	margin-top: -8px;
+} 
+
+ion-content p {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #8c8c8c;
+
+  bottom: 35px;
+  width: 100%
+}
+
+.user-avatar__img{
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+	border-radius: 50%;
+	margin-left: 50%;
+	position: fixed;	
+}

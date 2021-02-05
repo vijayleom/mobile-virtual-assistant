@@ -1,0 +1,88 @@
+ion-content p {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #8c8c8c;
+
+  bottom: 35px;
+  width: 100%
+}
+
+ion-title p{
+	line-height: 0;
+    position: absolute;
+	font-size: 0.6rem;
+	margin-top: -8px;
+} 
+
+.inline-info {
+	display: inline; 
+}
+
+ion-title img{
+	height: 50px;
+}
+
+ion-content {
+    left: 0px;
+    right: 0px;
+    top: calc(var(--offset-top) * -0.8);
+    bottom: calc(var(--offset-bottom) * -1.2);
+    padding-left: var(--padding-start);
+    padding-right: var(--padding-end);
+    padding-top: calc(var(--padding-top) + var(--offset-top));
+    padding-bottom: calc(var(--padding-bottom) + var(--keyboard-offset) + var(--offset-bottom));
+    position: absolute;
+    color: var(--color);
+    box-sizing: border-box;
+	overflow: hidden;
+}
+
+.user-avatar__img{
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+	border-radius: 50%;
+	margin-left: 50%;
+	position: fixed;
+}
+
+.assistant{
+	position: absolute;
+	top: 22%;
+    right: 20%;
+}
+
+.assistant img{
+	height: 400px;
+}
+
+.assitant-text{
+	position: absolute;
+	top: 15%;
+    right: 20%;
+}
+
+.fillColor{
+	background-color:  grey;
+}
+
+a {
+	cursor: pointer;
+    font-size: 60px;
+    top: 85%;
+    position: absolute;
+	right: 40%;
+	color: blueviolet;
+	border: 2px solid black;
+	border-radius: 50px;
+	width: 100px;
+	padding: 15px 30px 15px 30px;
+}
+
+h4 {
+    font-size: 22px;
+    top: 75%;
+    position: absolute;
+    right: 33%;
+}
